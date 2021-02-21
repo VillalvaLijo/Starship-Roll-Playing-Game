@@ -68,3 +68,8 @@ class Rabbit{
 let killerRabbit = new Rabbit("killer");
 let blackRabbit = new Rabbit("black");
 
+blackRabbit.speak("I am Black!");
+
+//class declarations only allow methods to be added to the prototype.
+
+export default Rabbit;
